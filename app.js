@@ -9,4 +9,4 @@ app.use('/', express.static('public'));
 
 app.listen(process.env.port || 3000, "0.0.0.0", 511, function(){
   console.log('Example app listening on port 3000!');
-})
+});
